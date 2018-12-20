@@ -1,0 +1,95 @@
+@(#)$CDS: LVS version 6.1.6 09/01/2015 15:36 (sjfnl125) $
+
+Command line: /opt/cadence/installs/IC616/tools.lnx86/dfII/bin/32bit/LVS -dir /home/gouldj5/cadence/LVS -l -s -t /home/gouldj5/cadence/LVS/layout /home/gouldj5/cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/gouldj5/cadence/LVS/layout/netlist
+       count
+        30              nets
+        10              terminals
+        24              pmos
+        24              nmos
+
+    Net-list summary for /home/gouldj5/cadence/LVS/schematic/netlist
+       count
+        30              nets
+        10              terminals
+        24              pmos
+        24              nmos
+
+
+    Terminal correspondence points
+    N26       N4        CLK
+    N22       N17       CLR
+    N25       N3        J
+    N23       N15       K
+    N21       N5        Q
+    N24       N19       Q'
+    N28       N29       Qm
+    N29       N30       Qm'
+    N20       N1        gnd!
+    N27       N0        vdd!
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  48      48     
+        total                   48      48     
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  30      30     
+        total                   30      30     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   10      10     
+
+
+Probe files from /home/gouldj5/cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/gouldj5/cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
